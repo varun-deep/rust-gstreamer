@@ -1,0 +1,9 @@
+[package]
+name = "gstreamer-lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ctrlc = "3.4.5"
+glib = "0.20.6"
+gstreamer = "0.23.3"
