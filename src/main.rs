@@ -5,9 +5,9 @@ use ctrlc;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
 
-    let sdp_path = String::from("/Users/varundeepsaini/RustroverProjects/gstreamer-lib/input-h264.sdp");
-    let mp4_temp_path = String::from("/Users/varundeepsaini/RustroverProjects/gstreamer-lib/output.mp4.tmp");
-    let mp4_path = String::from("/Users/varundeepsaini/RustroverProjects/gstreamer-lib/output.mp4");
+    let sdp_path = String::from("input-h264.sdp");
+    let mp4_temp_path = String::from("output.mp4.tmp");
+    let mp4_path = String::from("output.mp4");
 
     init()?;
 
